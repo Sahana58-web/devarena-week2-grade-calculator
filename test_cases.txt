@@ -1,0 +1,21 @@
+TEST CASES - Student Grade Calculator
+
+Test 1: Normal marks
+Input: Name = Priya, Marks = 85
+Expected: Grade B
+Result: Passed
+
+Test 2: Low marks
+Input: Name = Ravi, Marks = 45
+Expected: Grade F
+Result: Passed
+
+Test 3: Invalid input (text and out-of-range number)
+Input: Name = Anu, Marks = abc, then 150, then 75
+Expected: abc and 150 are rejected with an error message, then 75 gives Grade C
+Result: Passed
+
+Test 4: Top marks
+Input: Name = Sahana, Marks = 90
+Expected: Grade A
+Result: Passed
